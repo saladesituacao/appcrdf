@@ -1,7 +1,7 @@
 const num = process.env.NUM || 500;
 const tabela = process.env.TABLE || 'st_stick.tb_solicitacao_ambulatorial';
 const url = process.env.URL || 'https://user:senha@sisab-kb.saude.gov.br:443';
-const conexao = process.env.CONECTION || 'user=st_stick host= dbname= password= port=';
+const conexao = process.env.CONECTION || 'user= host= dbname= password= port=';
 var index_solicitacao = process.env.INDEX || 'sisreg-solicitacao-ambulatorial-df';
 
 
